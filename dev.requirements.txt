@@ -11,7 +11,7 @@ astor==0.8.1
 attrs==25.4.0
 blake3==1.0.8
 cachetools==6.2.2
-causal_conv1d==1.5.3.post1
+https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.5.4/causal_conv1d-1.5.4+cu13torch25.08cxx11abiTRUE-cp312-cp312-linux_x86_64.whl
 cbor2==5.7.1
 certifi==2025.11.12
 charset-normalizer==3.4.4
@@ -59,6 +59,7 @@ llvmlite==0.44.0
 lm-format-enforcer==0.11.3
 loguru==0.7.3
 https://github.com/state-spaces/mamba/releases/download/v2.2.6.post3/mamba_ssm-2.2.6.post3+cu13torch25.08cxx11abiTRUE-cp312-cp312-linux_x86_64.whl
+markdown-it-py==4.0.0
 MarkupSafe==3.0.3
 mdurl==0.1.2
 mistral_common==1.8.5
