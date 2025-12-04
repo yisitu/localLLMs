@@ -1,7 +1,12 @@
 Experience doc: https://docs.google.com/document/d/1P79r3jBOePrpSInZU4fK9BnQgK_o7Xg6lgde_SSxk6Q/edit?tab=t.0
 
 ```
-pip install -r dev.requirements.txt
+sudo apt-get install python3.12-dev
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+pip3 install accelerate
+pip3 install wheel
+pip3 install --no-build-isolation -v "mamba-ssm @ git+https://github.com/state-spaces/mamba.git"
+
 huggingface-cli login
 ```
 
