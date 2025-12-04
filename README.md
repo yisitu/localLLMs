@@ -7,6 +7,12 @@ pip3 install accelerate
 pip3 install wheel
 pip3 install --no-build-isolation -v "mamba-ssm @ git+https://github.com/state-spaces/mamba.git"
 
+# Build causal-conv1d from source
+#  git clone https://github.com/Dao-AILab/causal-conv1d.git
+#  cd causal-conv1d
+#  python3 setup.py build
+#  python3 setup.py install
+
 huggingface-cli login
 ```
 
