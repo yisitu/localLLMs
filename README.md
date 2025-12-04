@@ -1,6 +1,11 @@
 Experience doc: https://docs.google.com/document/d/1P79r3jBOePrpSInZU4fK9BnQgK_o7Xg6lgde_SSxk6Q/edit?tab=t.0
 
 ```
+pip install -r dev.requirements.txt
+huggingface-cli login
+```
+
+```
 Fri Nov 28 16:12:34 2025
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 580.105.07             Driver Version: 581.80         CUDA Version: 13.0     |
