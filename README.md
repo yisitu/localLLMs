@@ -6,6 +6,7 @@ pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu13
 pip3 install accelerate
 pip3 install wheel
 pip3 install --no-build-isolation -v "mamba-ssm @ git+https://github.com/state-spaces/mamba.git"
+pip3 install vllm
 
 # Build causal-conv1d from source
 #  git clone https://github.com/Dao-AILab/causal-conv1d.git
@@ -14,6 +15,14 @@ pip3 install --no-build-isolation -v "mamba-ssm @ git+https://github.com/state-s
 #  python3 setup.py install
 
 huggingface-cli login
+
+/usr/bin/nv-fabricmanager --version
+#sudo systemctl stop nvidia-fabricmanager 
+#sudo apt-get update
+#sudo apt-get install nvidia-fabricmanager-580
+
+
+NCCL_IGNORE_DISABLED_P2P=1 python3 run_vllm_nemotron_9B_v2.py
 ```
 
 ```
